@@ -61,14 +61,14 @@ Tune them in `prj.conf` or via `menuconfig` under **Person Detection**.
 Debug build (logging enabled):
 
 ```bash
-west build -b nrf54lm20dk/nrf54lm20/cpuapp
+west build -b nrf54lm20dk/nrf54lm20b/cpuapp
 west flash
 ```
 
 Release build:
 
 ```bash
-west build -b nrf54lm20dk/nrf54lm20/cpuapp -- -DFILE_SUFFIX=release
+west build -b nrf54lm20dk/nrf54lm20b/cpuapp -- -DFILE_SUFFIX=release
 west flash
 ```
 
